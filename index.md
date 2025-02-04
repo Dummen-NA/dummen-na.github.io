@@ -186,7 +186,7 @@ entries:
       type: homepage
 
     - title: Introduction
-      url: /mydoc_introduction.html
+      url: /mydoc_howto.html
       output: web, pdf
 
   - title: Release Notes

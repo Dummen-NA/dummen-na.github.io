@@ -283,16 +283,16 @@ entries:
           output: web
 
   - title: Release Notes
+    output: web, pdf
+    folderitems:
+
+    - title: 1.0.20 Release notes
+      url: /mydoc_release_notes_60.html
       output: web, pdf
-      folderitems:
 
-      - title: 1.0.20 Release notes
-        url: /mydoc_release_notes_60.html
-        output: web, pdf
-
-      - title: 1.0.18 Release notes
-        url: /mydoc_release_notes_50.html
-        output: web, pdf
+    - title: 1.0.18 Release notes
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
 
 
 # Copyright 2021 Google LLC

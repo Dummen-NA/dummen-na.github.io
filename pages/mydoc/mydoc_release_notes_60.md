@@ -1,40 +1,49 @@
 ---
-title: Release notes 6.0
+title: Release notes 1.0.20.0
 tags: [getting_started]
-keywords: release notes, announcements, what's new, new features
-last_updated: July 16, 2016
-summary: "Version 6.0 of the Documentation theme for Jekyll, released July 4, 2016, implements relative links so you can view the files offline or on any server without configuring urls and baseurls. Additionally, you can store pages in subdirectories. Templates for alerts and images are available."
+keywords: release notes
+last_updated: February 2, 2025
+summary: "Version 1.0.20 fixes mostly Vendor Management related customizations."
 sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
+# Release notes - Business Central Unit Acceptance Testing - 1.0.20.0
 
-## Relative links
+### Task
 
-You can now view the site offline rather than solely through the Jekyll preview server or deployed on a web server. The linking approach in both the sidebar and with inline links uses relative linking throughout.
+[BCUAT-62](https://dummen.atlassian.net/browse/BCUAT-62) Development Request for Claims
 
-## Subfolders for pages
+### Bug
 
-You can creates folders and subfolders for your pages, similar to how you can store posts in folders and subfolders. When Jekyll builds the site, all pages get pushed into the root directory as single html files (rather than being pushed inside folders, or remaining in subfolders). See [Pages][mydoc_pages] for more details.
+[BCUAT-4](https://dummen.atlassian.net/browse/BCUAT-4) Make Description 2 visible on Master Item dropdown
 
-## Alerts templates
+[BCUAT-10](https://dummen.atlassian.net/browse/BCUAT-10) FW: BC TEST Error Message - Program Shipping Agents
 
-You can use include templates for notes, tips, and warnings. These include templates make it easier to insert notes. If you make an error, you're immediately made aware since the site won't build. See [Alerts][mydoc_alerts] for more details.
+[BCUAT-39](https://dummen.atlassian.net/browse/BCUAT-39) Add royalty and freight prices to sales price list
 
-## Image templates
+[BCUAT-41](https://dummen.atlassian.net/browse/BCUAT-41) Assigned margin is not set for Customer Specific price lists
 
-Similar to alerts, images also have include templates. You can insert both regular images and inline images, such as images that are a button or icon. See [Images][mydoc_images] for more details.
+[BCUAT-42](https://dummen.atlassian.net/browse/BCUAT-42) Add rounding method to program
 
-## Automated links using Markdown formatting
+[BCUAT-43](https://dummen.atlassian.net/browse/BCUAT-43) Add item multiple to browse item
 
-Instead of using YAML references to handle links, I've switched to a Markdown reference style approach. A links.html file iterates through the sidebar files and formats the content in the Markdown reference. You then just use Markdown syntax for the links. See [Links][mydoc_hyperlinks] for more details.
+[BCUAT-47](https://dummen.atlassian.net/browse/BCUAT-47) Add Vendor Name to item list
 
-## Workflow maps
+[BCUAT-55](https://dummen.atlassian.net/browse/BCUAT-55) BC TEST Question - Customer Specific sales price lists
 
-If you want to display a workflow map for a process, you can do so by adding some properties in your frontmatter. The workflow map helps guide users through a process. Both simple and complex workflow maps are available. For more details, see [Workflow maps][mydoc_workflow_maps].
+[BCUAT-60](https://dummen.atlassian.net/browse/BCUAT-60) FW: BC TEST Issues - Buffer table Item import
 
-## Upgrading
+[BCUAT-61](https://dummen.atlassian.net/browse/BCUAT-61) FW: BC TEST Issues - Creating a sales price list
 
-If you want to upgrade from an earlier version of the theme, I recommend that you download the new theme and copy of your Markdown files into the new theme. You'll then need to make adjustments to your page frontmatter, to the sidebar table of contents, links, image references, and alert references. In short, there's no easy upgrade path. But all of this won't take too long if you don't have mountains of content.
+[BCUAT-66](https://dummen.atlassian.net/browse/BCUAT-66) Minimum qty. sales price lists not being created
 
-{% include links.html %}
+[BCUAT-67](https://dummen.atlassian.net/browse/BCUAT-67) Target Description not working when creating sales price list from purchase price list
+
+[BCUAT-68](https://dummen.atlassian.net/browse/BCUAT-68) Easy visibility between validated lines and to-be-created lines on vendor prog
+
+[BCUAT-69](https://dummen.atlassian.net/browse/BCUAT-69) Add Royalty Price to Sales Price List
+
+[BCUAT-70](https://dummen.atlassian.net/browse/BCUAT-70) Allow import of Price Sets
+
+[BCUAT-72](https://dummen.atlassian.net/browse/BCUAT-72) Add order date to sales order list

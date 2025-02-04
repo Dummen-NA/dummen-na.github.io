@@ -33,7 +33,7 @@ entries:
       output: web, pdf
 
     - title: Tips and Tricks
-      url: /mydoc_supported_features.html
+      url: /mydoc_tips.html
       output: web, pdf
 
     - title: About
@@ -43,25 +43,13 @@ entries:
     - title: Reporting Bugs and Issues
       url: /mydoc_support.html
       output: web, pdf
-
-  - title: Release Notes
-    output: web, pdf
-    folderitems:
-
-    - title: 1.0.20 Release notes
-      url: /mydoc_release_notes_60.html
-      output: web, pdf
-
-    - title: 1.0.18 Release notes
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
-
+  
   - title: Vendor Management
     output: web, pdf
     folderitems:
 
-    - title: About Ruby, Gems, Bundler, etc.
-      url: /mydoc_about_ruby_gems_etc.html
+    - title: Programs
+      url: /VendorManagement/docs_programs.html
       output: web, pdf
 
     - title: Install Jekyll on Mac
@@ -293,5 +281,18 @@ entries:
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
           output: web
+
+- title: Release Notes
+    output: web, pdf
+    folderitems:
+
+    - title: 1.0.20 Release notes
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
+
+    - title: 1.0.18 Release notes
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
 
 # Copyright 2021 Google LLC

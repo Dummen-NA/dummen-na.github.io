@@ -16,6 +16,3 @@ Some topics
 * Filtering
 * Searching
 * Navigating
-
-
-{% include links.html %}

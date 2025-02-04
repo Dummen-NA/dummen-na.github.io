@@ -49,7 +49,7 @@ entries:
     folderitems:
 
     - title: Programs
-      url: /VendorManagement/docs_programs.html
+      url: /mydoc_BrokerageERP_programs.html
       output: web, pdf
 
     - title: Install Jekyll on Mac

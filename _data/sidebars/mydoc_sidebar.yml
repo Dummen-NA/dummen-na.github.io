@@ -50,22 +50,20 @@ entries:
 
     - title: Programs
       url: /mydoc_BrokerageERP_programs.html
-      output: web, pdf
+      output: web
+      subfolderitems:
 
-    - title: Purchase Price Lists
-      url: /mydoc_install_jekyll_on_mac.html
-      output: web, pdf
+      - title: Purchase Price Lists
+        url: /mydoc_VendorManagement_PurchasePriceLists.html
+        output: web, pdf
 
-    - title: Sales Price Lists
-      url: /mydoc_install_jekyll_on_windows.html
-      output: web, pdf
+      - title: Sales Price Lists
+        url: /mydoc_VendorManagement_SalesPriceLists.html
+        output: web, pdf
 
     - title: Items      
+      url: /mydoc_pages.html
       output: web, pdf
-      folderitems:
-      - title: Master Items
-        url: /mydoc_pages.html
-        output: web, pdf
 
   - title: Customer Service
     output: web, pdf
@@ -247,7 +245,7 @@ entries:
       url: /mydoc_troubleshooting.html
       output: web, pdf
 
-  - title: Archives
+  - title: Development
     output: web
     folderitems:
 
@@ -299,6 +297,3 @@ entries:
     - title: 1.0.18 Release notes
       url: /mydoc_release_notes_50.html
       output: web, pdf
-
-
-# Copyright 2021 Google LLC

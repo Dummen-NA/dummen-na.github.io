@@ -52,17 +52,23 @@ entries:
       url: /mydoc_BrokerageERP_programs.html
       output: web, pdf
 
-    - title: Install Jekyll on Mac
+    - title: Purchase Price Lists
       url: /mydoc_install_jekyll_on_mac.html
       output: web, pdf
 
-    - title: Install Jekyll on Windows
+    - title: Sales Price Lists
       url: /mydoc_install_jekyll_on_windows.html
       output: web, pdf
 
+    - title: Items      
+      output: web, pdf
+      folderitems:
+      - title: Master Items
+        url: /mydoc_pages.html
+        output: web, pdf
+
   - title: Customer Service
     output: web, pdf
-
     folderitems:
     - title: Pages
       url: /mydoc_pages.html
